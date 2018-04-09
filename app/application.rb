@@ -9,7 +9,7 @@ class Application
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
 
-    if num_1<num_2
+    if num_1<=num_2
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
